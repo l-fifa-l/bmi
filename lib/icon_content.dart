@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-
-const lableTextStyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF8D8E98),
-);
+import 'contants.dart';
 
 class IconContent extends StatelessWidget {
   const IconContent({Key? key, required this.icon, required this.lable})
@@ -25,7 +21,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           lable,
-          style: lableTextStyle,
+          style: kLableTextStyle,
         ),
       ],
     );
